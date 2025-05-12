@@ -57,7 +57,7 @@ plt.show()
 Output Waveform
 image
 
-Results
+# Results
 Thus, the Python program for Phase Shift Keying (PSK) modulation and demodulation was successfully implemented.
 
 Output Waveform - Hardware Experiment

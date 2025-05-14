@@ -1,12 +1,11 @@
-# PSK
+# psk
+# AIM
+To perform Phase Shift Keying{PSK} using Python
 
-# Aim
-Write a Python program for the modulation and demodulation of PSK.
+# APPARATUS REQUIRED:
+Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
-# Tools required
-Python IDE
-
-Program
+PROGRAM
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -54,11 +53,14 @@ plt.grid(True)
 plt.legend()
 plt.tight_layout()
 plt.show()
-Output Waveform
-image
+# OUTPUT WAVEFORM
+![psk-6](https://github.com/user-attachments/assets/f97a4bb2-69f7-45a0-b866-9fd6cae74236)
 
-# Results
-Thus, the Python program for Phase Shift Keying (PSK) modulation and demodulation was successfully implemented.
 
-Output Waveform - Hardware Experiment
-![dc-6 img](https://github.com/user-attachments/assets/b2bdc69b-26af-4af2-bb60-a36e20dece53)
+#GRAPH
+![dc-6 img](https://github.com/user-attachments/assets/6bd0fe69-a5a4-498f-a0cd-7971e70aa752)
+
+
+# RESULT
+THUS THE PSK (Phase Shift Keying) IS PERFORMED USING PYTHON.
+

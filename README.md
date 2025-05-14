@@ -9,6 +9,7 @@ PROGRAM
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
+
 # Butterworth low-pass filter for demodulation
 def butter_lowpass_filter(data, cutoff, fs, order=5):
     nyquist = 0.5 * fs
@@ -53,11 +54,12 @@ plt.grid(True)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
 # OUTPUT WAVEFORM
 ![psk-6](https://github.com/user-attachments/assets/f97a4bb2-69f7-45a0-b866-9fd6cae74236)
 
 
-#GRAPH
+# GRAPH
 ![dc-6 img](https://github.com/user-attachments/assets/6bd0fe69-a5a4-498f-a0cd-7971e70aa752)
 
 
